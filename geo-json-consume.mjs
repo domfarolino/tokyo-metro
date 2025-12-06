@@ -130,7 +130,7 @@ const body = document.body;
 // Register the JSDOM window and document with SVG.js
 registerWindow(dom.window, document);
 
-const draw = SVG().addTo(body).size(/*width=*/kBaseSize * aspect_ratio, /*height=*/kBaseSize);
+const draw = SVG().addTo(body).viewbox(0, 0, /*width=*/kBaseSize * aspect_ratio, /*height=*/kBaseSize);
 
 for (const line of kLines) {
   const line_json = JSON.parse(await readFile(`${line.name}.geojson`, 'utf8'));
