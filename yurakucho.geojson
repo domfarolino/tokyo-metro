@@ -1,0 +1,4984 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-12-06T21:09:43Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/663996550",
+        "area": "yes",
+        "bench": "yes",
+        "layer": "2",
+        "lit": "yes",
+        "name:en": "Shin-kiba (Yurakucho Line)",
+        "name:es": "Shin-kiba (Línea Yurakucho)",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.8251946,
+              35.6458026
+            ],
+            [
+              139.8266137,
+              35.6458909
+            ],
+            [
+              139.827769,
+              35.6460425
+            ],
+            [
+              139.8277648,
+              35.6460625
+            ],
+            [
+              139.8271788,
+              35.6460105
+            ],
+            [
+              139.826712,
+              35.6459658
+            ],
+            [
+              139.8259977,
+              35.6458971
+            ],
+            [
+              139.8259395,
+              35.6458916
+            ],
+            [
+              139.8255056,
+              35.6458518
+            ],
+            [
+              139.825189,
+              35.6458192
+            ],
+            [
+              139.8251946,
+              35.6458026
+            ]
+          ]
+        ]
+      },
+      "id": "way/663996550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/665185319",
+        "area": "yes",
+        "bench": "yes",
+        "indoor": "yes",
+        "layer": "-2",
+        "level": "-4",
+        "lit": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.7405613,
+              35.6785393
+            ],
+            [
+              139.7409888,
+              35.678249
+            ],
+            [
+              139.7415823,
+              35.6779341
+            ],
+            [
+              139.7419752,
+              35.6777844
+            ],
+            [
+              139.7424882,
+              35.6776079
+            ],
+            [
+              139.7425063,
+              35.6776476
+            ],
+            [
+              139.741998,
+              35.677823
+            ],
+            [
+              139.7416037,
+              35.6779712
+            ],
+            [
+              139.741015,
+              35.6782817
+            ],
+            [
+              139.7405913,
+              35.6785724
+            ],
+            [
+              139.7405613,
+              35.6785393
+            ]
+          ]
+        ]
+      },
+      "id": "way/665185319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670316689",
+        "area": "yes",
+        "covered": "yes",
+        "layer": "-2",
+        "level": "-2",
+        "lit": "yes",
+        "name": "東池袋駅",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.7178068,
+              35.7267941
+            ],
+            [
+              139.7201514,
+              35.7252968
+            ],
+            [
+              139.7201358,
+              35.7253264
+            ],
+            [
+              139.719874,
+              35.7254963
+            ],
+            [
+              139.7194636,
+              35.7257593
+            ],
+            [
+              139.7188631,
+              35.7261441
+            ],
+            [
+              139.718463,
+              35.7264005
+            ],
+            [
+              139.7178559,
+              35.7267895
+            ],
+            [
+              139.7178068,
+              35.7267941
+            ]
+          ]
+        ]
+      },
+      "id": "way/670316689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670504419",
+        "area": "yes",
+        "bench": "yes",
+        "layer": "-3",
+        "level": "-3",
+        "lit": "yes",
+        "name": "月島",
+        "name:en": "Tsukishima",
+        "name:es": "Tsukishima",
+        "network": "有楽町線",
+        "operator": "東京メト",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.78546,
+              35.6638624
+            ],
+            [
+              139.7854997,
+              35.6638915
+            ],
+            [
+              139.7849551,
+              35.6643807
+            ],
+            [
+              139.7848717,
+              35.6644625
+            ],
+            [
+              139.7847226,
+              35.6645856
+            ],
+            [
+              139.7843558,
+              35.6648978
+            ],
+            [
+              139.7839162,
+              35.6652283
+            ],
+            [
+              139.783899,
+              35.6652194
+            ],
+            [
+              139.7843203,
+              35.664885
+            ],
+            [
+              139.78546,
+              35.6638624
+            ]
+          ]
+        ]
+      },
+      "id": "way/670504419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/676259327",
+        "area": "yes",
+        "bench": "yes",
+        "bin": "no",
+        "departures_board": "timetable",
+        "indoor": "area",
+        "layer": "-4",
+        "level": "-3",
+        "lit": "yes",
+        "name": "First Platform",
+        "network": "東京メトロ",
+        "operator": "Tokyo Metro",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tactile_paving": "yes",
+        "tunnel": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.7661439,
+              35.674949
+            ],
+            [
+              139.7664066,
+              35.6747671
+            ],
+            [
+              139.7665102,
+              35.6746953
+            ],
+            [
+              139.7677942,
+              35.6738061
+            ],
+            [
+              139.7678967,
+              35.6737353
+            ],
+            [
+              139.7680089,
+              35.6736577
+            ],
+            [
+              139.7680357,
+              35.6736832
+            ],
+            [
+              139.7679237,
+              35.6737607
+            ],
+            [
+              139.7665384,
+              35.6747198
+            ],
+            [
+              139.7661706,
+              35.6749744
+            ],
+            [
+              139.7661439,
+              35.674949
+            ]
+          ]
+        ]
+      },
+      "id": "way/676259327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696930988",
+        "area": "yes",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.733231,
+              35.7096725
+            ],
+            [
+              139.7332017,
+              35.7096405
+            ],
+            [
+              139.7338406,
+              35.709377
+            ],
+            [
+              139.7338686,
+              35.7094235
+            ],
+            [
+              139.733231,
+              35.7096725
+            ]
+          ]
+        ]
+      },
+      "id": "way/696930988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696938024",
+        "area": "yes",
+        "lit": "yes",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.7271785,
+              35.7195535
+            ],
+            [
+              139.7274942,
+              35.7189138
+            ],
+            [
+              139.7275737,
+              35.7189383
+            ],
+            [
+              139.7272579,
+              35.7195779
+            ],
+            [
+              139.7271785,
+              35.7195535
+            ]
+          ]
+        ]
+      },
+      "id": "way/696938024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696941856",
+        "area": "yes",
+        "highway": "footway",
+        "public_transport": "platform",
+        "railway": "platform",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6120233,
+              35.7887774
+            ],
+            [
+              139.6120046,
+              35.7887469
+            ],
+            [
+              139.6138553,
+              35.7879723
+            ],
+            [
+              139.6138741,
+              35.7880115
+            ],
+            [
+              139.6120233,
+              35.7887774
+            ]
+          ]
+        ]
+      },
+      "id": "way/696941856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/788228525",
+        "area": "yes",
+        "level": "-2",
+        "network": "東京メトロ;西武鉄道",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1;2",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6790144,
+              35.7437196
+            ],
+            [
+              139.6790037,
+              35.7437044
+            ],
+            [
+              139.6789906,
+              35.7436858
+            ],
+            [
+              139.6789819,
+              35.7436734
+            ],
+            [
+              139.6808858,
+              35.7427901
+            ],
+            [
+              139.6809183,
+              35.7428363
+            ],
+            [
+              139.6790144,
+              35.7437196
+            ]
+          ]
+        ]
+      },
+      "id": "way/788228525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1150541590",
+        "area": "yes",
+        "level": "-2",
+        "public_transport": "platform",
+        "railway": "platform"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              139.6887081,
+              35.7388977
+            ],
+            [
+              139.6886323,
+              35.7388339
+            ],
+            [
+              139.6900546,
+              35.7377472
+            ],
+            [
+              139.6901243,
+              35.7378111
+            ],
+            [
+              139.6887081,
+              35.7388977
+            ]
+          ]
+        ]
+      },
+      "id": "way/1150541590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/198609048",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "Bing",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6185255,
+            35.7860539
+          ],
+          [
+            139.6192524,
+            35.785788
+          ],
+          [
+            139.6208602,
+            35.7851484
+          ],
+          [
+            139.6216042,
+            35.7848429
+          ],
+          [
+            139.6220067,
+            35.7846679
+          ],
+          [
+            139.6222072,
+            35.7845761
+          ],
+          [
+            139.6224699,
+            35.7844494
+          ],
+          [
+            139.622758,
+            35.7843021
+          ],
+          [
+            139.6231074,
+            35.7841134
+          ],
+          [
+            139.6234777,
+            35.7838944
+          ],
+          [
+            139.6238797,
+            35.7836465
+          ],
+          [
+            139.6242563,
+            35.7833962
+          ],
+          [
+            139.624984,
+            35.7828936
+          ],
+          [
+            139.6257321,
+            35.7823659
+          ]
+        ]
+      },
+      "id": "way/198609048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/198609110",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "Bing",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6125592,
+            35.7884719
+          ],
+          [
+            139.6148268,
+            35.7875377
+          ]
+        ]
+      },
+      "id": "way/198609110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/198609129",
+        "bridge": "yes",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "Bing",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6148268,
+            35.7875377
+          ],
+          [
+            139.6158769,
+            35.7871102
+          ],
+          [
+            139.617022,
+            35.7866479
+          ],
+          [
+            139.6176909,
+            35.7863684
+          ],
+          [
+            139.6185255,
+            35.7860539
+          ]
+        ]
+      },
+      "id": "way/198609129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199076136",
+        "bridge": "yes",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "Bing",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6257321,
+            35.7823659
+          ],
+          [
+            139.6260842,
+            35.7821353
+          ]
+        ]
+      },
+      "id": "way/199076136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199076138",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "Bing",
+        "usage": "main",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6260842,
+            35.7821353
+          ],
+          [
+            139.6267273,
+            35.7816869
+          ],
+          [
+            139.6274345,
+            35.7812165
+          ]
+        ]
+      },
+      "id": "way/199076138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/661469196",
+        "bench": "yes",
+        "layer": "-2",
+        "level": "-2",
+        "lit": "yes",
+        "name": "桜田門",
+        "name:en": "Sakuradamon",
+        "name:es": "Sakuradamon",
+        "network": "東京メトロ有楽町線",
+        "operator": "東京メト",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "2",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7506801,
+            35.6773164
+          ],
+          [
+            139.7509083,
+            35.6773241
+          ],
+          [
+            139.7516835,
+            35.6774352
+          ],
+          [
+            139.7527919,
+            35.6775661
+          ]
+        ]
+      },
+      "id": "way/661469196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/661599594",
+        "bench": "yes",
+        "layer": "-3",
+        "level": "-3",
+        "lit": "yes",
+        "name": "東京メトロ有楽町線 有楽町駅",
+        "name:en": "Yurakucho",
+        "name:es": "Yurakucho",
+        "network": "東京メトロ有楽町線",
+        "operator": "東京地下鉄",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7631335,
+            35.6757396
+          ],
+          [
+            139.7631126,
+            35.6757648
+          ],
+          [
+            139.7628776,
+            35.6758172
+          ],
+          [
+            139.7610891,
+            35.6762161
+          ],
+          [
+            139.7610641,
+            35.6762111
+          ]
+        ]
+      },
+      "id": "way/661599594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/663817154",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-3",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6977189,
+            35.7334431
+          ],
+          [
+            139.6978513,
+            35.7334218
+          ],
+          [
+            139.698716,
+            35.73328
+          ],
+          [
+            139.6996292,
+            35.7331238
+          ],
+          [
+            139.7002328,
+            35.7329705
+          ],
+          [
+            139.7006895,
+            35.7328966
+          ],
+          [
+            139.7008035,
+            35.7328769
+          ],
+          [
+            139.7029841,
+            35.7328752
+          ],
+          [
+            139.7036229,
+            35.7328836
+          ],
+          [
+            139.7037327,
+            35.7328839
+          ],
+          [
+            139.70422,
+            35.7327629
+          ],
+          [
+            139.7046882,
+            35.7325847
+          ],
+          [
+            139.7057953,
+            35.7320968
+          ],
+          [
+            139.7062561,
+            35.7318848
+          ],
+          [
+            139.7070706,
+            35.7313564
+          ],
+          [
+            139.7080665,
+            35.7306179
+          ],
+          [
+            139.7087084,
+            35.7301952
+          ],
+          [
+            139.7097272,
+            35.7297098
+          ]
+        ]
+      },
+      "id": "way/663817154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/663950509",
+        "bench": "yes",
+        "layer": "-3",
+        "level": "-2",
+        "lit": "yes",
+        "name": "要町 (東京メトロ有楽町線)",
+        "name:en": "Kanamecho (Yurakucho Line)",
+        "name:es": "Kanamecho (Línea Yurakucho)",
+        "name:ja": "要町 (東京メトロ有楽町線)",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6978307,
+            35.7333731
+          ],
+          [
+            139.6978505,
+            35.7334077
+          ],
+          [
+            139.6983337,
+            35.7333329
+          ],
+          [
+            139.6983587,
+            35.7333289
+          ],
+          [
+            139.6984476,
+            35.7333166
+          ],
+          [
+            139.6994873,
+            35.7331376
+          ],
+          [
+            139.6995178,
+            35.7331327
+          ],
+          [
+            139.6995273,
+            35.7331064
+          ]
+        ]
+      },
+      "id": "way/663950509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/665115304",
+        "bench": "yes",
+        "layer": "-2",
+        "level": "-2",
+        "lit": "yes",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "3",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7109302,
+            35.7292243
+          ],
+          [
+            139.7109391,
+            35.7293022
+          ],
+          [
+            139.7100525,
+            35.7295813
+          ],
+          [
+            139.7099728,
+            35.7296098
+          ],
+          [
+            139.7097006,
+            35.7296944
+          ],
+          [
+            139.7093247,
+            35.729824
+          ],
+          [
+            139.7093015,
+            35.7298233
+          ]
+        ]
+      },
+      "id": "way/665115304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/665185331",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-3",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja-Latn": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7631582,
+            35.6757891
+          ],
+          [
+            139.7634761,
+            35.6757006
+          ],
+          [
+            139.7637476,
+            35.6756261
+          ],
+          [
+            139.7642548,
+            35.6755077
+          ],
+          [
+            139.7656227,
+            35.6751883
+          ],
+          [
+            139.7658701,
+            35.6751078
+          ],
+          [
+            139.766033,
+            35.6750411
+          ],
+          [
+            139.7662113,
+            35.6749533
+          ],
+          [
+            139.7663475,
+            35.6748694
+          ],
+          [
+            139.7664973,
+            35.6747696
+          ],
+          [
+            139.7670566,
+            35.6743786
+          ],
+          [
+            139.7682942,
+            35.6735098
+          ],
+          [
+            139.7689093,
+            35.6730796
+          ],
+          [
+            139.7697743,
+            35.6724994
+          ],
+          [
+            139.7706492,
+            35.6719192
+          ],
+          [
+            139.7709283,
+            35.6717375
+          ],
+          [
+            139.7711811,
+            35.6715902
+          ],
+          [
+            139.7714265,
+            35.6714669
+          ],
+          [
+            139.7717574,
+            35.6713253
+          ],
+          [
+            139.7726316,
+            35.6709735
+          ],
+          [
+            139.7734291,
+            35.6706504
+          ],
+          [
+            139.7738587,
+            35.6704687
+          ],
+          [
+            139.7746975,
+            35.6701694
+          ],
+          [
+            139.7750664,
+            35.6700691
+          ],
+          [
+            139.7753379,
+            35.6700134
+          ],
+          [
+            139.7767867,
+            35.6696923
+          ],
+          [
+            139.7780281,
+            35.6694234
+          ],
+          [
+            139.7786508,
+            35.6692501
+          ],
+          [
+            139.7789906,
+            35.669127
+          ],
+          [
+            139.7793149,
+            35.6689725
+          ],
+          [
+            139.7796212,
+            35.6687954
+          ],
+          [
+            139.779899,
+            35.6685964
+          ],
+          [
+            139.780159,
+            35.6683801
+          ],
+          [
+            139.7803874,
+            35.668142
+          ],
+          [
+            139.7805525,
+            35.6679436
+          ],
+          [
+            139.7809799,
+            35.6674
+          ],
+          [
+            139.7811797,
+            35.667155
+          ],
+          [
+            139.7813831,
+            35.6669356
+          ],
+          [
+            139.7816256,
+            35.6667057
+          ],
+          [
+            139.7818843,
+            35.6664894
+          ],
+          [
+            139.7821649,
+            35.6662844
+          ],
+          [
+            139.7824576,
+            35.666101
+          ],
+          [
+            139.7831097,
+            35.665734
+          ],
+          [
+            139.7836778,
+            35.6653901
+          ],
+          [
+            139.7839694,
+            35.6652047
+          ],
+          [
+            139.7843636,
+            35.6649149
+          ],
+          [
+            139.784766,
+            35.6645697
+          ],
+          [
+            139.7855256,
+            35.6638923
+          ],
+          [
+            139.7860932,
+            35.6633956
+          ],
+          [
+            139.7864036,
+            35.6631305
+          ],
+          [
+            139.7867821,
+            35.6627785
+          ],
+          [
+            139.7876088,
+            35.6619803
+          ],
+          [
+            139.7878763,
+            35.661759
+          ],
+          [
+            139.7881557,
+            35.661553
+          ],
+          [
+            139.7885331,
+            35.6613167
+          ],
+          [
+            139.7916976,
+            35.659496
+          ],
+          [
+            139.7919405,
+            35.6593291
+          ],
+          [
+            139.7921784,
+            35.6591558
+          ],
+          [
+            139.7924015,
+            35.6589639
+          ],
+          [
+            139.7926311,
+            35.6587382
+          ],
+          [
+            139.7933164,
+            35.6580317
+          ],
+          [
+            139.7935746,
+            35.6577604
+          ],
+          [
+            139.7938422,
+            35.6574492
+          ],
+          [
+            139.7941789,
+            35.6570733
+          ],
+          [
+            139.7944592,
+            35.6567662
+          ],
+          [
+            139.794656,
+            35.656564
+          ],
+          [
+            139.7948357,
+            35.6563812
+          ]
+        ]
+      },
+      "id": "way/665185331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668661961",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7362144,
+            35.6915459
+          ],
+          [
+            139.7361074,
+            35.691391
+          ],
+          [
+            139.7359459,
+            35.6911168
+          ],
+          [
+            139.735727,
+            35.6905276
+          ],
+          [
+            139.7356358,
+            35.690227
+          ],
+          [
+            139.7355797,
+            35.6899475
+          ],
+          [
+            139.7355573,
+            35.6896693
+          ],
+          [
+            139.7355534,
+            35.6893962
+          ],
+          [
+            139.7355754,
+            35.6890894
+          ],
+          [
+            139.7356291,
+            35.6887968
+          ],
+          [
+            139.7357486,
+            35.688453
+          ],
+          [
+            139.7376724,
+            35.6840302
+          ],
+          [
+            139.7381276,
+            35.6829691
+          ],
+          [
+            139.7382322,
+            35.6823831
+          ],
+          [
+            139.7382643,
+            35.6819871
+          ],
+          [
+            139.7383234,
+            35.6814267
+          ],
+          [
+            139.7384065,
+            35.6811325
+          ],
+          [
+            139.7386015,
+            35.6806138
+          ],
+          [
+            139.7387606,
+            35.6803329
+          ],
+          [
+            139.7392437,
+            35.6796587
+          ],
+          [
+            139.7394641,
+            35.6794286
+          ],
+          [
+            139.7395867,
+            35.6793198
+          ],
+          [
+            139.7397611,
+            35.6791695
+          ],
+          [
+            139.73993,
+            35.6790301
+          ],
+          [
+            139.7399573,
+            35.6790106
+          ],
+          [
+            139.7401741,
+            35.6788558
+          ],
+          [
+            139.7403887,
+            35.6787185
+          ],
+          [
+            139.7405978,
+            35.6785888
+          ]
+        ]
+      },
+      "id": "way/668661961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/668661962",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7380288,
+            35.6938937
+          ],
+          [
+            139.7378488,
+            35.6936856
+          ],
+          [
+            139.7374023,
+            35.6931688
+          ]
+        ]
+      },
+      "id": "way/668661962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669431636",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7427485,
+            35.7003858
+          ],
+          [
+            139.7426294,
+            35.7002157
+          ],
+          [
+            139.7424379,
+            35.6999629
+          ],
+          [
+            139.7422675,
+            35.6996856
+          ],
+          [
+            139.7419222,
+            35.6991266
+          ],
+          [
+            139.7415903,
+            35.6985863
+          ],
+          [
+            139.741255,
+            35.6981027
+          ],
+          [
+            139.7410566,
+            35.6978348
+          ],
+          [
+            139.7400591,
+            35.6964617
+          ],
+          [
+            139.7394902,
+            35.6956979
+          ],
+          [
+            139.7390744,
+            35.6951447
+          ],
+          [
+            139.7384441,
+            35.6943801
+          ],
+          [
+            139.7380288,
+            35.6938937
+          ]
+        ]
+      },
+      "id": "way/669431636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669431637",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-2",
+        "level": "-3",
+        "level:ref": "B3F",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7439209,
+            35.7019734
+          ],
+          [
+            139.7436174,
+            35.7015617
+          ],
+          [
+            139.7433312,
+            35.7011698
+          ],
+          [
+            139.7429904,
+            35.7007171
+          ],
+          [
+            139.7427485,
+            35.7003858
+          ]
+        ]
+      },
+      "id": "way/669431637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669437024",
+        "bench": "yes",
+        "colour": "#C1A470",
+        "covered": "yes",
+        "layer": "-2",
+        "level": "-3",
+        "level:ref": "B3F",
+        "lit": "yes",
+        "network": "有楽町線",
+        "passenger_information_display": "yes",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "3",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7438648,
+            35.7019868
+          ],
+          [
+            139.7438943,
+            35.7019699
+          ],
+          [
+            139.7438616,
+            35.7019273
+          ],
+          [
+            139.743794,
+            35.7018253
+          ],
+          [
+            139.7436009,
+            35.7015681
+          ],
+          [
+            139.7433121,
+            35.7011785
+          ],
+          [
+            139.7429718,
+            35.7007253
+          ],
+          [
+            139.7427403,
+            35.7004104
+          ],
+          [
+            139.7427059,
+            35.7004276
+          ]
+        ]
+      },
+      "id": "way/669437024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669956064",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-3",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7975106,
+            35.6537987
+          ],
+          [
+            139.7977402,
+            35.6536103
+          ],
+          [
+            139.7979326,
+            35.653444
+          ],
+          [
+            139.7985658,
+            35.6527994
+          ],
+          [
+            139.7988239,
+            35.6525457
+          ],
+          [
+            139.7990739,
+            35.6523055
+          ],
+          [
+            139.7993263,
+            35.6520887
+          ],
+          [
+            139.7996024,
+            35.6518753
+          ],
+          [
+            139.8013266,
+            35.6506092
+          ],
+          [
+            139.8016105,
+            35.6504157
+          ],
+          [
+            139.8019112,
+            35.650234
+          ],
+          [
+            139.8022269,
+            35.6500674
+          ],
+          [
+            139.8025522,
+            35.6499309
+          ],
+          [
+            139.8029016,
+            35.6498026
+          ],
+          [
+            139.8032547,
+            35.6497031
+          ],
+          [
+            139.8036115,
+            35.6496075
+          ],
+          [
+            139.8039588,
+            35.6495164
+          ],
+          [
+            139.8043191,
+            35.6494235
+          ],
+          [
+            139.8046682,
+            35.6493184
+          ],
+          [
+            139.8050062,
+            35.6491924
+          ],
+          [
+            139.8053311,
+            35.6490422
+          ],
+          [
+            139.8056389,
+            35.6488716
+          ],
+          [
+            139.8059243,
+            35.6486859
+          ],
+          [
+            139.8066094,
+            35.6481541
+          ],
+          [
+            139.8069038,
+            35.6479606
+          ],
+          [
+            139.8072133,
+            35.6477828
+          ],
+          [
+            139.8078307,
+            35.6474375
+          ],
+          [
+            139.8081394,
+            35.6472557
+          ],
+          [
+            139.8084396,
+            35.6470635
+          ],
+          [
+            139.8107438,
+            35.6455232
+          ],
+          [
+            139.81111,
+            35.6452777
+          ],
+          [
+            139.8114129,
+            35.6450974
+          ],
+          [
+            139.8117255,
+            35.6449284
+          ],
+          [
+            139.8119374,
+            35.6448172
+          ],
+          [
+            139.8122557,
+            35.6446515
+          ],
+          [
+            139.8125857,
+            35.6445138
+          ],
+          [
+            139.8129325,
+            35.6444029
+          ],
+          [
+            139.8132974,
+            35.6443222
+          ],
+          [
+            139.8136686,
+            35.6442741
+          ],
+          [
+            139.8140409,
+            35.6442564
+          ],
+          [
+            139.8144149,
+            35.6442751
+          ],
+          [
+            139.8147874,
+            35.6443204
+          ],
+          [
+            139.8151483,
+            35.6444027
+          ],
+          [
+            139.8155036,
+            35.6445127
+          ],
+          [
+            139.8161936,
+            35.6447457
+          ],
+          [
+            139.8165461,
+            35.6448578
+          ],
+          [
+            139.8168963,
+            35.6449554
+          ],
+          [
+            139.8172394,
+            35.6450311
+          ],
+          [
+            139.8174329,
+            35.6450679
+          ],
+          [
+            139.817749,
+            35.6451142
+          ]
+        ]
+      },
+      "id": "way/669956064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669956065",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-3",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7948357,
+            35.6563812
+          ],
+          [
+            139.795095,
+            35.6561387
+          ],
+          [
+            139.7952935,
+            35.6559661
+          ],
+          [
+            139.7955474,
+            35.655766
+          ],
+          [
+            139.7958066,
+            35.6555303
+          ],
+          [
+            139.79625,
+            35.6550808
+          ],
+          [
+            139.7973105,
+            35.6539791
+          ],
+          [
+            139.7975106,
+            35.6537987
+          ]
+        ]
+      },
+      "id": "way/669956065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670075646",
+        "bench": "yes",
+        "layer": "-3",
+        "level": "-3",
+        "lit": "yes",
+        "name": "豊洲",
+        "name:en": "Toyosu",
+        "name:es": "Toyosu",
+        "network": "有楽町線",
+        "operator": "東京地下鉄",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tactile_paving": "yes",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7967417,
+            35.6545089
+          ],
+          [
+            139.7967435,
+            35.654534
+          ],
+          [
+            139.7967192,
+            35.6545585
+          ],
+          [
+            139.7966481,
+            35.6546301
+          ],
+          [
+            139.7964341,
+            35.6548455
+          ],
+          [
+            139.7958955,
+            35.6553849
+          ],
+          [
+            139.7956208,
+            35.655659
+          ],
+          [
+            139.7954955,
+            35.6557744
+          ],
+          [
+            139.7954737,
+            35.6557787
+          ]
+        ]
+      },
+      "id": "way/670075646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/670592421",
+        "bench": "yes",
+        "layer": "-2",
+        "level": "-2",
+        "lit": "yes",
+        "name": "新富町",
+        "name:en": "Shintomicho",
+        "name:es": "Shintomicho",
+        "network": "有楽町線",
+        "operator": "東京地下鉄",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "1",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7740573,
+            35.6704524
+          ],
+          [
+            139.7739456,
+            35.6704946
+          ],
+          [
+            139.7732906,
+            35.6707422
+          ],
+          [
+            139.7725978,
+            35.6710041
+          ]
+        ]
+      },
+      "id": "way/670592421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/676531397",
+        "bench": "yes",
+        "layer": "-3",
+        "level": "-3",
+        "lit": "yes",
+        "name": "辰巳",
+        "name:en": "Tatsumi",
+        "network": "有楽町線",
+        "operator": "東京メトロ",
+        "public_transport": "platform",
+        "railway": "platform",
+        "ref": "3",
+        "subway": "yes",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.8112411,
+            35.6451664
+          ],
+          [
+            139.8112205,
+            35.6451928
+          ],
+          [
+            139.8103496,
+            35.6457368
+          ],
+          [
+            139.8102855,
+            35.6457756
+          ],
+          [
+            139.8100061,
+            35.645945
+          ],
+          [
+            139.8100037,
+            35.6459464
+          ],
+          [
+            139.8099269,
+            35.6459906
+          ],
+          [
+            139.809901,
+            35.6459902
+          ]
+        ]
+      },
+      "id": "way/676531397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696930985",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7348618,
+            35.7091297
+          ],
+          [
+            139.7352147,
+            35.7090585
+          ],
+          [
+            139.7355773,
+            35.7089811
+          ],
+          [
+            139.7411994,
+            35.7081446
+          ],
+          [
+            139.7414881,
+            35.7080904
+          ],
+          [
+            139.7415911,
+            35.7080631
+          ],
+          [
+            139.7418388,
+            35.7079842
+          ],
+          [
+            139.7419358,
+            35.7079448
+          ],
+          [
+            139.742175,
+            35.7078334
+          ],
+          [
+            139.7422345,
+            35.7078032
+          ],
+          [
+            139.7422736,
+            35.7077833
+          ],
+          [
+            139.7424741,
+            35.7076559
+          ],
+          [
+            139.7425599,
+            35.7075971
+          ],
+          [
+            139.742745,
+            35.7074446
+          ],
+          [
+            139.7428335,
+            35.707363
+          ],
+          [
+            139.742977,
+            35.7072072
+          ],
+          [
+            139.7430655,
+            35.7071032
+          ],
+          [
+            139.7431704,
+            35.7069449
+          ],
+          [
+            139.7432412,
+            35.7068435
+          ],
+          [
+            139.7433257,
+            35.7066758
+          ],
+          [
+            139.7433834,
+            35.7065593
+          ],
+          [
+            139.7434794,
+            35.7063414
+          ],
+          [
+            139.7437793,
+            35.705465
+          ],
+          [
+            139.7439875,
+            35.7048806
+          ],
+          [
+            139.7440888,
+            35.7045882
+          ],
+          [
+            139.7441876,
+            35.7043093
+          ],
+          [
+            139.7442926,
+            35.7040044
+          ],
+          [
+            139.7443794,
+            35.7037098
+          ],
+          [
+            139.7444428,
+            35.7034055
+          ],
+          [
+            139.744463,
+            35.7031975
+          ],
+          [
+            139.7444683,
+            35.7031169
+          ],
+          [
+            139.7444436,
+            35.7029064
+          ],
+          [
+            139.7444292,
+            35.7027926
+          ],
+          [
+            139.7443784,
+            35.7026422
+          ],
+          [
+            139.7442972,
+            35.7025304
+          ],
+          [
+            139.7442026,
+            35.702357
+          ],
+          [
+            139.7439209,
+            35.7019734
+          ]
+        ]
+      },
+      "id": "way/696930985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696938021",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7205829,
+            35.7250589
+          ],
+          [
+            139.7219525,
+            35.7242035
+          ],
+          [
+            139.7235364,
+            35.7232138
+          ],
+          [
+            139.7248104,
+            35.7222317
+          ],
+          [
+            139.7264707,
+            35.7206442
+          ],
+          [
+            139.7269401,
+            35.7201499
+          ],
+          [
+            139.7271759,
+            35.719779
+          ]
+        ]
+      },
+      "id": "way/696938021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696938022",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7279499,
+            35.7181934
+          ],
+          [
+            139.728127,
+            35.7178362
+          ],
+          [
+            139.728302,
+            35.7174747
+          ],
+          [
+            139.7310777,
+            35.7118093
+          ],
+          [
+            139.7311766,
+            35.711513
+          ],
+          [
+            139.7312437,
+            35.7112146
+          ],
+          [
+            139.7313228,
+            35.7109141
+          ],
+          [
+            139.7313885,
+            35.7107714
+          ],
+          [
+            139.7314488,
+            35.7106381
+          ],
+          [
+            139.7315454,
+            35.7104905
+          ],
+          [
+            139.7316407,
+            35.7103739
+          ],
+          [
+            139.7317844,
+            35.7102417
+          ],
+          [
+            139.7319081,
+            35.7101607
+          ],
+          [
+            139.7320746,
+            35.7100605
+          ],
+          [
+            139.7322439,
+            35.7099831
+          ],
+          [
+            139.7325322,
+            35.7098976
+          ],
+          [
+            139.732725,
+            35.7098467
+          ]
+        ]
+      },
+      "id": "way/696938022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/788234557",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-2",
+        "level": "-2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "A",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6806906,
+            35.7429581
+          ],
+          [
+            139.6809706,
+            35.7428294
+          ],
+          [
+            139.6816561,
+            35.7424785
+          ]
+        ]
+      },
+      "id": "way/788234557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793837463",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.817749,
+            35.6451142
+          ],
+          [
+            139.8185071,
+            35.6452002
+          ],
+          [
+            139.8195991,
+            35.645308
+          ],
+          [
+            139.8204392,
+            35.6453982
+          ]
+        ]
+      },
+      "id": "way/793837463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/793837465",
+        "bridge": "yes",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.8204392,
+            35.6453982
+          ],
+          [
+            139.8209846,
+            35.6454608
+          ],
+          [
+            139.8215737,
+            35.6455327
+          ],
+          [
+            139.8220837,
+            35.6455839
+          ],
+          [
+            139.8227239,
+            35.645644
+          ],
+          [
+            139.8234253,
+            35.6457077
+          ],
+          [
+            139.8238364,
+            35.6457475
+          ],
+          [
+            139.8241162,
+            35.6457743
+          ],
+          [
+            139.8243415,
+            35.6457922
+          ],
+          [
+            139.8244922,
+            35.6458038
+          ],
+          [
+            139.8247073,
+            35.6458189
+          ],
+          [
+            139.8251653,
+            35.6458336
+          ],
+          [
+            139.8257784,
+            35.6458891
+          ],
+          [
+            139.8266504,
+            35.6459744
+          ]
+        ]
+      },
+      "id": "way/793837465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/832954115",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-2",
+        "level": "-2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.675946,
+            35.745076
+          ],
+          [
+            139.6762788,
+            35.7449595
+          ],
+          [
+            139.6782181,
+            35.7440746
+          ]
+        ]
+      },
+      "id": "way/832954115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/832954128",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-1",
+        "level": "-2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6886881,
+            35.7389451
+          ],
+          [
+            139.6895178,
+            35.7383063
+          ],
+          [
+            139.6901399,
+            35.7378122
+          ],
+          [
+            139.6918159,
+            35.7364811
+          ],
+          [
+            139.69299,
+            35.7355856
+          ],
+          [
+            139.6941479,
+            35.7347121
+          ],
+          [
+            139.6943969,
+            35.734552
+          ],
+          [
+            139.694658,
+            35.7343956
+          ],
+          [
+            139.6949851,
+            35.7342187
+          ],
+          [
+            139.6954566,
+            35.7340163
+          ],
+          [
+            139.6959978,
+            35.7338216
+          ],
+          [
+            139.6965104,
+            35.7336838
+          ],
+          [
+            139.6970439,
+            35.7335844
+          ],
+          [
+            139.6977189,
+            35.7334431
+          ]
+        ]
+      },
+      "id": "way/832954128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/832954142",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6274345,
+            35.7812165
+          ],
+          [
+            139.6278774,
+            35.7809179
+          ],
+          [
+            139.6281361,
+            35.7806997
+          ],
+          [
+            139.6283484,
+            35.7804414
+          ],
+          [
+            139.6285028,
+            35.7801597
+          ],
+          [
+            139.6285967,
+            35.7798716
+          ],
+          [
+            139.6286436,
+            35.7795652
+          ],
+          [
+            139.6286607,
+            35.7792643
+          ],
+          [
+            139.6286909,
+            35.7788164
+          ],
+          [
+            139.6287203,
+            35.7786489
+          ],
+          [
+            139.6288335,
+            35.7783572
+          ],
+          [
+            139.6288832,
+            35.7782545
+          ],
+          [
+            139.6290812,
+            35.7779727
+          ],
+          [
+            139.6292863,
+            35.7777691
+          ],
+          [
+            139.6295531,
+            35.7775728
+          ],
+          [
+            139.6298326,
+            35.7774168
+          ],
+          [
+            139.6304202,
+            35.777155
+          ],
+          [
+            139.630508,
+            35.7771159
+          ],
+          [
+            139.6313339,
+            35.776704
+          ],
+          [
+            139.6325467,
+            35.7760587
+          ],
+          [
+            139.6340583,
+            35.775316
+          ],
+          [
+            139.6342538,
+            35.7752019
+          ],
+          [
+            139.6345701,
+            35.7750182
+          ],
+          [
+            139.6348892,
+            35.7746729
+          ],
+          [
+            139.6354694,
+            35.7740222
+          ],
+          [
+            139.6363604,
+            35.7732111
+          ],
+          [
+            139.6367875,
+            35.7728251
+          ],
+          [
+            139.6373366,
+            35.7724815
+          ],
+          [
+            139.6377833,
+            35.7722415
+          ],
+          [
+            139.6384261,
+            35.7719335
+          ],
+          [
+            139.6388379,
+            35.7717826
+          ],
+          [
+            139.6415177,
+            35.7712077
+          ],
+          [
+            139.6421852,
+            35.771026
+          ],
+          [
+            139.6425199,
+            35.7709005
+          ],
+          [
+            139.6428841,
+            35.7707122
+          ],
+          [
+            139.6441677,
+            35.769971
+          ],
+          [
+            139.645414,
+            35.7692265
+          ],
+          [
+            139.6461525,
+            35.7689083
+          ],
+          [
+            139.6484653,
+            35.7682904
+          ],
+          [
+            139.6491029,
+            35.7681326
+          ],
+          [
+            139.6494397,
+            35.7680227
+          ],
+          [
+            139.6498578,
+            35.7675994
+          ],
+          [
+            139.6500789,
+            35.7672049
+          ],
+          [
+            139.6502687,
+            35.7665718
+          ],
+          [
+            139.6507614,
+            35.7643364
+          ],
+          [
+            139.6512403,
+            35.7604876
+          ],
+          [
+            139.6514466,
+            35.7598226
+          ],
+          [
+            139.6516245,
+            35.7595067
+          ],
+          [
+            139.6519094,
+            35.7592727
+          ],
+          [
+            139.6529979,
+            35.758413
+          ],
+          [
+            139.6536345,
+            35.7580163
+          ],
+          [
+            139.6542458,
+            35.7576942
+          ],
+          [
+            139.6542953,
+            35.7576628
+          ],
+          [
+            139.6543405,
+            35.7576342
+          ],
+          [
+            139.6550722,
+            35.7571706
+          ],
+          [
+            139.6551336,
+            35.7571318
+          ],
+          [
+            139.6560571,
+            35.7565467
+          ],
+          [
+            139.6573027,
+            35.7558273
+          ],
+          [
+            139.6580634,
+            35.7553099
+          ],
+          [
+            139.6585589,
+            35.7549281
+          ],
+          [
+            139.6601986,
+            35.7536006
+          ],
+          [
+            139.6640979,
+            35.7504713
+          ],
+          [
+            139.6647104,
+            35.7500477
+          ],
+          [
+            139.6650785,
+            35.7498601
+          ],
+          [
+            139.6664962,
+            35.7492131
+          ],
+          [
+            139.6665662,
+            35.7491811
+          ],
+          [
+            139.6695435,
+            35.7479203
+          ],
+          [
+            139.6726742,
+            35.7465128
+          ],
+          [
+            139.6743839,
+            35.7457502
+          ],
+          [
+            139.6755751,
+            35.7452126
+          ],
+          [
+            139.675946,
+            35.745076
+          ]
+        ]
+      },
+      "id": "way/832954142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/834249963",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-3",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "railway:track_ref": "B2F 3",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7097272,
+            35.7297098
+          ],
+          [
+            139.7109651,
+            35.7293036
+          ],
+          [
+            139.7111303,
+            35.729246
+          ]
+        ]
+      },
+      "id": "way/834249963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/834249967",
+        "bridge": "yes",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.8266504,
+            35.6459744
+          ],
+          [
+            139.8278007,
+            35.6460734
+          ]
+        ]
+      },
+      "id": "way/834249967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/842424300",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-3",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7111303,
+            35.729246
+          ],
+          [
+            139.7115979,
+            35.7290886
+          ],
+          [
+            139.7119372,
+            35.7289775
+          ],
+          [
+            139.7120954,
+            35.7289122
+          ],
+          [
+            139.7129457,
+            35.7284343
+          ],
+          [
+            139.7134285,
+            35.7281371
+          ],
+          [
+            139.7141124,
+            35.7277636
+          ],
+          [
+            139.714449,
+            35.7276558
+          ],
+          [
+            139.7149909,
+            35.7276188
+          ],
+          [
+            139.7158357,
+            35.7276711
+          ],
+          [
+            139.7161308,
+            35.7276558
+          ],
+          [
+            139.7164178,
+            35.7276023
+          ],
+          [
+            139.7172478,
+            35.7271627
+          ],
+          [
+            139.7177042,
+            35.7269092
+          ],
+          [
+            139.7195905,
+            35.7257006
+          ],
+          [
+            139.7205829,
+            35.7250589
+          ]
+        ]
+      },
+      "id": "way/842424300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/846912336",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-3",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7425293,
+            35.6776595
+          ],
+          [
+            139.7428188,
+            35.6775855
+          ],
+          [
+            139.7430266,
+            35.6775485
+          ],
+          [
+            139.743201,
+            35.6775234
+          ],
+          [
+            139.7436154,
+            35.6774962
+          ],
+          [
+            139.7442645,
+            35.6775311
+          ],
+          [
+            139.7456592,
+            35.6778274
+          ],
+          [
+            139.7467536,
+            35.6778405
+          ],
+          [
+            139.7477513,
+            35.6777402
+          ],
+          [
+            139.7487532,
+            35.6774603
+          ],
+          [
+            139.7489007,
+            35.6774308
+          ],
+          [
+            139.7490898,
+            35.677396
+          ],
+          [
+            139.7492655,
+            35.677372
+          ],
+          [
+            139.7496088,
+            35.6773339
+          ],
+          [
+            139.7500433,
+            35.6773121
+          ],
+          [
+            139.7503015,
+            35.6773084
+          ],
+          [
+            139.7506287,
+            35.6773222
+          ],
+          [
+            139.7509298,
+            35.6773524
+          ],
+          [
+            139.7516866,
+            35.6774582
+          ],
+          [
+            139.7529978,
+            35.6776172
+          ],
+          [
+            139.7540063,
+            35.677579
+          ],
+          [
+            139.7577758,
+            35.6770291
+          ],
+          [
+            139.7584373,
+            35.6769188
+          ],
+          [
+            139.7590652,
+            35.6767757
+          ],
+          [
+            139.7597749,
+            35.6765715
+          ],
+          [
+            139.7601297,
+            35.676472
+          ],
+          [
+            139.7604943,
+            35.6763831
+          ],
+          [
+            139.76108,
+            35.6762554
+          ]
+        ]
+      },
+      "id": "way/846912336"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/849402437",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-2",
+        "level": "-4",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7405978,
+            35.6785888
+          ],
+          [
+            139.7410271,
+            35.6782969
+          ],
+          [
+            139.7416145,
+            35.6779889
+          ],
+          [
+            139.7420061,
+            35.6778328
+          ],
+          [
+            139.7425293,
+            35.6776595
+          ]
+        ]
+      },
+      "id": "way/849402437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/849766844",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7271759,
+            35.719779
+          ],
+          [
+            139.7275108,
+            35.7191034
+          ],
+          [
+            139.7277448,
+            35.7186354
+          ],
+          [
+            139.7279499,
+            35.7181934
+          ]
+        ]
+      },
+      "id": "way/849766844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/854519243",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-2",
+        "level": "-2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "A",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6782181,
+            35.7440746
+          ],
+          [
+            139.6790182,
+            35.7437305
+          ],
+          [
+            139.6806906,
+            35.7429581
+          ]
+        ]
+      },
+      "id": "way/854519243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/862004557",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-1",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.732725,
+            35.7098467
+          ],
+          [
+            139.7331293,
+            35.7097326
+          ],
+          [
+            139.7336008,
+            35.7095696
+          ],
+          [
+            139.7339084,
+            35.7094423
+          ],
+          [
+            139.7345301,
+            35.7092221
+          ],
+          [
+            139.7348618,
+            35.7091297
+          ]
+        ]
+      },
+      "id": "way/862004557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/895155869",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-4",
+        "level": "-4",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.7374023,
+            35.6931688
+          ],
+          [
+            139.7367792,
+            35.6923634
+          ],
+          [
+            139.7362144,
+            35.6915459
+          ]
+        ]
+      },
+      "id": "way/895155869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/901886759",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-2",
+        "level": "-2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "railway:track_ref": "Aオク",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6822103,
+            35.742216
+          ],
+          [
+            139.686021,
+            35.7404131
+          ],
+          [
+            139.6862519,
+            35.740306
+          ],
+          [
+            139.686774,
+            35.7400592
+          ],
+          [
+            139.6875088,
+            35.7396855
+          ],
+          [
+            139.6878297,
+            35.7395095
+          ],
+          [
+            139.6881276,
+            35.7393315
+          ],
+          [
+            139.6886881,
+            35.7389451
+          ]
+        ]
+      },
+      "id": "way/901886759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1348162505",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-3",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線;有楽町;1番線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja-Hira": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "oneway": "yes",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.76108,
+            35.6762554
+          ],
+          [
+            139.762151,
+            35.6760219
+          ],
+          [
+            139.7631582,
+            35.6757891
+          ]
+        ]
+      },
+      "id": "way/1348162505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1356327830",
+        "colour": "#C1A470",
+        "electrified": "contact_line",
+        "frequency": "0",
+        "gauge": "1067",
+        "layer": "-2",
+        "level": "-2",
+        "maxspeed": "80",
+        "name": "東京メトロ有楽町線",
+        "name:en": "Tokyo Metro Yurakucho Line",
+        "name:es": "Línea Yurakucho de Tokyo Metro",
+        "name:ja": "東京メトロ有楽町線",
+        "name:ja_kana": "とうきょうめとろゆうらくちょうせん",
+        "name:ja_rm": "Tōkyō Metoro Yūrakuchō-sen",
+        "name:ko": "도쿄메트로 유라쿠조선",
+        "name:ru": "Линия метро Юракутё",
+        "name:zh": "东京地铁有乐町线",
+        "operator": "東京地下鉄",
+        "operator:en": "Tokyo Metro",
+        "operator:ja": "東京地下鉄",
+        "operator:ja_rm": "Tōkyō Chikatetsu",
+        "railway": "subway",
+        "railway:preferred_direction": "forward",
+        "ref": "Y",
+        "source": "GSI/KIBAN 2500;NARO",
+        "tunnel": "yes",
+        "voltage": "1500"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            139.6816561,
+            35.7424785
+          ],
+          [
+            139.6822103,
+            35.742216
+          ]
+        ]
+      },
+      "id": "way/1356327830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31330037",
+        "colour": "yellow",
+        "name": "辰巳",
+        "name:en": "Tatsumi",
+        "name:es": "Tatsumi",
+        "name:ja": "辰巳",
+        "name:ja_kana": "たつみ",
+        "name:ja_rm": "Tatsumi",
+        "name:ko": "다쓰미",
+        "name:ru": "Тацуми",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y23",
+        "subway": "yes",
+        "wikidata": "Q331177",
+        "wikipedia": "ja:辰巳駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8107438,
+          35.6455232
+        ]
+      },
+      "id": "node/31330037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/31330041",
+        "name": "新木場",
+        "name:en": "Shin-kiba",
+        "name:es": "Shin-Kiba",
+        "name:ja": "新木場",
+        "name:ja_kana": "しんきば",
+        "name:ja_rm": "Shin-kiba",
+        "name:ru": "Синкиба",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y24",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1376066",
+        "wikipedia": "ja:新木場駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.8266504,
+          35.6459744
+        ]
+      },
+      "id": "node/31330041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1926376077",
+        "colour": "yellow",
+        "name": "市ケ谷",
+        "name:en": "Ichigaya",
+        "name:es": "Ichigaya",
+        "name:ja": "市ケ谷",
+        "name:ja_rm": "Ichigaya",
+        "name:ru": "Итигая",
+        "network": "東京メトロ有楽町線",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y14",
+        "subway": "yes",
+        "wikidata": "Q800947",
+        "wikipedia": "ja:市ケ谷駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7367792,
+          35.6923634
+        ]
+      },
+      "id": "node/1926376077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1926376078",
+        "name": "有楽町",
+        "name:en": "Yurakucho",
+        "name:es": "Yurakucho",
+        "name:ko": "유라쿠초",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.762151,
+          35.6760219
+        ]
+      },
+      "id": "node/1926376078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1926376080",
+        "colour": "yellow",
+        "name": "桜田門",
+        "name:en": "Sakuradamon",
+        "name:es": "Sakuradamon",
+        "name:ja": "桜田門",
+        "name:ja-Hira": "さくらだもん",
+        "name:ja_rm": "Sakudaramon",
+        "name:ru": "Сакурадамон",
+        "network": "東京メトロ有楽町線",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y17",
+        "subway": "yes",
+        "wikidata": "Q277196",
+        "wikipedia": "ja:桜田門駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7516866,
+          35.6774582
+        ]
+      },
+      "id": "node/1926376080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1926376082",
+        "colour": "yellow",
+        "name": "江戸川橋",
+        "name:en": "Edogawabashi",
+        "name:es": "Edogawabashi",
+        "name:ja": "江戸川橋",
+        "name:ja-Hira": "えどがわばし",
+        "name:ja_rm": "Edogawabashi",
+        "name:ko": "에도가와바시",
+        "name:ru": "Эдогавабаси",
+        "network": "東京メトロ",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y12",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7336008,
+          35.7095696
+        ]
+      },
+      "id": "node/1926376082"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1926376085",
+        "colour": "yellow",
+        "name": "護国寺",
+        "name:en": "Gokokuji",
+        "name:es": "Gokokuji",
+        "name:ja": "護国寺",
+        "name:ja_kana": "ごこくじ",
+        "name:ja_rm": "Gokokuji",
+        "name:ko": "고코쿠지",
+        "name:ru": "Гококудзи",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y11",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7275108,
+          35.7191034
+        ]
+      },
+      "id": "node/1926376085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1926376086",
+        "colour": "yellow",
+        "name": "銀座一丁目",
+        "name:en": "Ginza-itchome",
+        "name:es": "Ginza-itchome",
+        "name:ja": "銀座一丁目",
+        "name:ja-Hira": "ぎんざいっちょうめ",
+        "name:ja_rm": "Ginza Itchōme",
+        "name:ko": "긴자1초메",
+        "name:ru": "Гиндза Иттёмэ",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y19",
+        "subway": "yes",
+        "wheelchair": "no",
+        "wikidata": "Q331185",
+        "wikipedia": "ja:銀座一丁目駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7670566,
+          35.6743786
+        ]
+      },
+      "id": "node/1926376086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1926376088",
+        "alt_name": "麴町",
+        "alt_name:ja": "麹町",
+        "colour": "yellow",
+        "name": "麹町",
+        "name:en": "Kojimachi",
+        "name:es": "Kojimachi",
+        "name:ja": "麴町",
+        "name:ja-Hira": "こうじまち",
+        "name:ja_rm": "Kōjimachi",
+        "name:ko": "고지마치",
+        "name:ru": "Кодзимати",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y15",
+        "subway": "yes",
+        "wikidata": "Q331948",
+        "wikipedia": "ja:麹町駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7376724,
+          35.6840302
+        ]
+      },
+      "id": "node/1926376088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1952091838",
+        "railway": "switch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7506287,
+          35.6773222
+        ]
+      },
+      "id": "node/1952091838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3645998146",
+        "loc_ref": "2",
+        "name": "和光市",
+        "name:en": "Wakoshi",
+        "name:ja": "和光市",
+        "network": "東京メトロ副都心線",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y01;F01",
+        "subway": "yes",
+        "transport": "subway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6125592,
+          35.7884719
+        ]
+      },
+      "id": "node/3645998146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6179529804",
+        "name": "永田町",
+        "name:en": "Nagatacho",
+        "name:es": "Nagatacho",
+        "name:ja": "永田町",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7416145,
+          35.6779889
+        ]
+      },
+      "id": "node/6179529804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6213383386",
+        "loc_ref": "1",
+        "name": "要町",
+        "name:en": "Kanamecho",
+        "name:es": "Kanamecho",
+        "name:ja": "要町01",
+        "name:ja_kana": "かなめちょう",
+        "name:ja_rm": "Kanamechō",
+        "name:ru": "Канамэтё",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y08",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.698716,
+          35.73328
+        ]
+      },
+      "id": "node/6213383386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6224948699",
+        "name": "池袋",
+        "name:en": "Ikebukuro",
+        "name:es": "Ikebukuro",
+        "name:fr": "Le sac de l'étang",
+        "name:ja": "池袋",
+        "name:ja-Hira": "いけぶくろ",
+        "name:ja-Latn": "Ikebukuro",
+        "name:ru": "Икебукуро",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y09",
+        "subway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7097272,
+          35.7297098
+        ]
+      },
+      "id": "node/6224948699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6268844072",
+        "colour": "yellow",
+        "name": "飯田橋",
+        "name:en": "Iidabashi",
+        "name:es": "Iidabashi",
+        "name:ja": "飯田橋",
+        "name:ja-Hira": "いいだばし",
+        "name:ja_rm": "Iidabashi",
+        "name:ru": "Иидабаси",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y13",
+        "subway": "yes",
+        "wikidata": "Q800953",
+        "wikipedia": "ja:飯田橋駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7436174,
+          35.7015617
+        ]
+      },
+      "id": "node/6268844072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274211198",
+        "name": "豊洲",
+        "name:en": "Toyosu",
+        "name:es": "Toyosu",
+        "name:ja": "豊洲",
+        "name:ja_kana": "とよす",
+        "name:ja_rm": "Toyosu",
+        "name:ru": "Тоёсу",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y22",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1141968",
+        "wikipedia": "ja:豊洲駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.79625,
+          35.6550808
+        ]
+      },
+      "id": "node/6274211198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274211202",
+        "railway": "switch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7948357,
+          35.6563812
+        ]
+      },
+      "id": "node/6274211202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274211204",
+        "railway": "switch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7952935,
+          35.6559661
+        ]
+      },
+      "id": "node/6274211204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6274908262",
+        "colour": "yellow",
+        "name": "新富町",
+        "name:en": "Shintomicho",
+        "name:es": "Shintomicho",
+        "name:ja": "新富町",
+        "name:ja-Hira": "しんとみちょう",
+        "name:ja_rm": "Shintomichō",
+        "name:ru": "Синтомитё",
+        "operator": "東京地下鉄",
+        "operator:ja": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y20",
+        "subway": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q332002",
+        "wikipedia": "ja:新富町駅 (東京都)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7734291,
+          35.6706504
+        ]
+      },
+      "id": "node/6274908262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6277315766",
+        "colour": "yellow",
+        "name": "東池袋",
+        "name:en": "Higashi-ikebukuro",
+        "name:es": "Higashi-ikebukuro",
+        "name:ja": "東池袋",
+        "name:ja_rm": "Higashi Ikebukuro",
+        "name:ru": "Хигаси Икэбукуро",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y10",
+        "subway": "yes",
+        "wikidata": "Q331193",
+        "wikipedia": "ja:東池袋駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7195905,
+          35.7257006
+        ]
+      },
+      "id": "node/6277315766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6278523324",
+        "colour": "yellow",
+        "name": "月島",
+        "name:en": "Tsukishima",
+        "name:es": "Tsukishima",
+        "name:fr": "Tsukishima",
+        "name:ja": "月島",
+        "name:ja-Hira": "つきしま",
+        "name:ja-Latn": "Tsukishima",
+        "name:ru": "Цукисима",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y21",
+        "subway": "yes",
+        "wikidata": "Q112337",
+        "wikipedia": "ja:月島駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.784766,
+          35.6645697
+        ]
+      },
+      "id": "node/6278523324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6279691838",
+        "note": "10号車側"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7740573,
+          35.6704524
+        ]
+      },
+      "id": "node/6279691838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6279691839",
+        "note": "1号車側"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7725978,
+          35.6710041
+        ]
+      },
+      "id": "node/6279691839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7369566822",
+        "loc_ref": "1",
+        "name": "小竹向原",
+        "name:en": "Kotake-mukaihara",
+        "name:es": "Kotake-mukaihara",
+        "name:ja": "小竹向原01",
+        "name:ja_kana": "こたけむかいはら",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6806906,
+          35.7429581
+        ]
+      },
+      "id": "node/7369566822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775736874",
+        "railway": "switch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6886881,
+          35.7389451
+        ]
+      },
+      "id": "node/7775736874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775791257",
+        "loc_ref": "1",
+        "name": "平和台",
+        "name:en": "Heiwadai",
+        "name:es": "Heiwadai",
+        "name:ja": "平和台",
+        "name:ja_kana": "へいわだい",
+        "name:ja_rm": "Heiwadai",
+        "name:ru": "Хэйвадай",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y04;F04",
+        "subway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6542458,
+          35.7576942
+        ]
+      },
+      "id": "node/7775791257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775799999",
+        "railway": "switch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6816561,
+          35.7424785
+        ]
+      },
+      "id": "node/7775799999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775801427",
+        "loc_ref": "1",
+        "name": "地下鉄赤塚",
+        "name:en": "Chikatetsu-akatsuka",
+        "name:es": "Chikatetsu-akatsuka",
+        "name:ja": "地下鉄赤塚01",
+        "name:ja_kana": "ちかてつあかつか",
+        "name:ja_rm": "Chikatetsu Akatsuka",
+        "name:ru": "Тикатэцу Акацука",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y03;F03",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q80412",
+        "wikipedia": "ja:地下鉄赤塚駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6441677,
+          35.769971
+        ]
+      },
+      "id": "node/7775801427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775808131",
+        "colour": "yellow",
+        "loc_ref": "1",
+        "name": "千川",
+        "name:en": "Senkawa",
+        "name:es": "Senkawa",
+        "name:ja": "千川01",
+        "name:ja_kana": "せんかわ",
+        "name:ja_rm": "Senkawa",
+        "name:ko": "센카와",
+        "name:ru": "Сэнкава",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y07",
+        "subway": "yes",
+        "wikidata": "Q128304",
+        "wikipedia": "ja:千川駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6895178,
+          35.7383063
+        ]
+      },
+      "id": "node/7775808131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775812014",
+        "railway": "switch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6822103,
+          35.742216
+        ]
+      },
+      "id": "node/7775812014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775813422",
+        "railway": "switch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6782181,
+          35.7440746
+        ]
+      },
+      "id": "node/7775813422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775821589",
+        "loc_ref": "1",
+        "name": "地下鉄成増",
+        "name:en": "Chikatetsu-narimasu",
+        "name:ja": "地下鉄成増01",
+        "name:ja_kana": "ちかてつなります",
+        "name:ja_rm": "Chikatetsu Narimasu",
+        "name:ru": "Тикатэцу Наримасу",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y02;F02",
+        "subway": "yes",
+        "transport": "subway",
+        "wikidata": "Q80506",
+        "wikipedia": "ja:地下鉄成増駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6313339,
+          35.776704
+        ]
+      },
+      "id": "node/7775821589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775824110",
+        "loc_ref": "1",
+        "name": "氷川台",
+        "name:en": "Hikawadai",
+        "name:es": "Hikawadai",
+        "name:ja": "氷川台01",
+        "name:ja_kana": "ひかわだい",
+        "name:ja_rm": "Hikawadai",
+        "name:ru": "Хикавадай",
+        "operator": "東京地下鉄",
+        "public_transport": "stop_position",
+        "railway": "stop",
+        "ref": "Y05;F05",
+        "station": "subway",
+        "subway": "yes",
+        "wikidata": "Q93680",
+        "wikipedia": "ja:氷川台駅"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6650785,
+          35.7498601
+        ]
+      },
+      "id": "node/7775824110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10596369757",
+        "railway": "crossing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6304202,
+          35.777155
+        ]
+      },
+      "id": "node/10596369757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12135864134",
+        "railway": "switch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7637476,
+          35.6756261
+        ]
+      },
+      "id": "node/12135864134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12135864136",
+        "railway": "switch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7642548,
+          35.6755077
+        ]
+      },
+      "id": "node/12135864136"
+    }
+  ]
+}

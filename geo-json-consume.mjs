@@ -6,86 +6,78 @@ import { SVG, registerWindow } from '@svgdotjs/svg.js';
 
 const kLines = [
   {name: 'ginza', color: '#FF9500'},
-  /*
-  {name: 'marunouchi', color: ''},
-  {name: 'hibiya', color: ''},
-  {name: 'tozai', color: ''},
-  {name: 'chiyoda', color: ''},
-  {name: 'yurakucho', color: ''},
-  {name: 'hanzomon', color: ''},
-  {name: 'namboku', color: ''},
-  {name: 'fukutoshin', color: ''}
-  */
+  {name: 'marunouchi', color: '#F62E36'},
+  {name: 'hibiya', color: '#B5B5AC'},
+  {name: 'tozai', color: '#009BBF'},
+  {name: 'chiyoda', color: '#00BB85'},
+  {name: 'yurakucho', color: '#C1A470'},
+  {name: 'hanzomon', color: '#8F76D6'},
+  {name: 'namboku', color: '#00AC9B'},
+  {name: 'fukutoshin', color: '#9C5E31'}
 ];
 
-async function generateSvgWithLibrary(coordinates, width, height, line_color) {
-  const dom = new JSDOM('<!DOCTYPE html><html><body></body></html>');
-  const document = dom.window.document;
-  const body = document.body;
-
-  // Register the JSDOM window and document with SVG.js
-  registerWindow(dom.window, document);
-
-  const draw = SVG().addTo(body).size(width, height);
+function drawMetroLine(draw, width, height, coordinates, line_color) {
+  const kThickness = 8;
   for (const coord of coordinates) {
-    console.log(coord.type);
     if (coord.type === 'LineString') {
-      draw.polyline(coord.coords.map(p => [p.longitude_norm * width, p.latitude_norm * height])).fill('none').stroke({ color : line_color, width: 5 });
+      draw.polyline(coord.coords.map(p => [p.longitude_norm * width, p.latitude_norm * height])).fill('none').stroke({ color : line_color, width: kThickness });
     } else if (coord.type === 'Point') {
-      draw.circle(15).fill(line_color).center(coord.coords[0].longitude_norm * width, coord.coords[0].latitude_norm * height); 
-    } else if (coord.type === 'Polygon') {
-      // draw.polygon(coord.coords.map(p => [p.longitude_norm * width, p.latitude_norm * height])).stroke({ color : 'black', width: 6 });
+      draw.circle(kThickness - 1).fill('white').center(coord.coords[0].longitude_norm * width, coord.coords[0].latitude_norm * height);
     }
   }
-
-  return body.innerHTML;
 }
 
+// These globals are set by the `computeAspectRatio()` function below.
 let aspect_ratio = undefined;
+// The aspect ratio and overall late/long range is needed to normalize each
+// coordinate on a canvas of arbitrary size.
+let min_X = Infinity,
+    max_X = -Infinity,
+    min_Y = Infinity,
+    max_Y = -Infinity;
+let rangeLat = undefined,
+    rangeLong = undefined;
 
-async function generateNormalizedCoordinates(json) {
-  const returnCoords = [];
+async function computeAspectRatio() {
+  for (const line of kLines) {
+    const line_json = JSON.parse(await readFile(`${line.name}.geojson`, 'utf8'));
 
-  let min_X = Infinity,
-      max_X = -Infinity,
-      min_Y = Infinity,
-      max_Y = -Infinity;
+    for (const feature of line_json['features']) {
+      const geometry_type = feature['geometry']['type'];
 
-  for (const feature of json['features']) {
-    const geometry_type = feature['geometry']['type'];
-
-    let coordinates = feature['geometry']['coordinates'];
-    if (geometry_type === 'Polygon') {
-      // For some reason `Polygon` coordinates are packaged like this.
-      coordinates = coordinates[0];
-    } else if (geometry_type === 'LineString') {
-      if (feature.properties.railway !== 'subway') {
-        continue;
-      }
-      // Do nothing to re-package coordinates of the `LineString`.
-    } else if (geometry_type === 'Point') {
-      if (feature.properties.railway === 'stop') {
+      let coordinates = feature['geometry']['coordinates'];
+      // Ignore `Polygon` geometries; they only represent station platforms
+      // which we don't care about.
+      if (geometry_type === 'LineString' && feature.properties.railway === 'subway') {
+        // Do nothing to re-package coordinates of the `LineString`.
+      } else if (geometry_type === 'Point' && feature.properties.railway === 'stop') {
         console.log(feature.properties['name:en']);
         coordinates = [coordinates];
       } else {
+        // We must not care about this geometry point, so don't let it influence
+        // our normalization.
         continue;
       }
-    }
 
-    // OSM presents (lon, lat), because it aligns with the standard (x, y)
-    // coordinate/plotting scheme.
-    for (const [longitude, latitude] of coordinates) {
-      min_X = Math.min(min_X, longitude);
-      max_X = Math.max(max_X, longitude);
+      // OSM presents (lon, lat), because it aligns with the standard (x, y)
+      // coordinate/plotting scheme.
+      for (const [longitude, latitude] of coordinates) {
+        min_X = Math.min(min_X, longitude);
+        max_X = Math.max(max_X, longitude);
 
-      min_Y = Math.min(min_Y, latitude);
-      max_Y = Math.max(max_Y, latitude);
+        min_Y = Math.min(min_Y, latitude);
+        max_Y = Math.max(max_Y, latitude);
+      }
     }
   }
 
-  const rangeLat = max_Y - min_Y;
-  const rangeLong = max_X - min_X;
+  rangeLat = max_Y - min_Y;
+  rangeLong = max_X - min_X;
   aspect_ratio = rangeLong / rangeLat;
+}
+
+async function generateNormalizedCoordinates(json) {
+  const returnCoords = [];
 
   for (const feature of json['features']) {
     const geometry_type = feature['geometry']['type'];
@@ -127,11 +119,23 @@ async function generateNormalizedCoordinates(json) {
   return returnCoords;
 }
 
-const kBaseSize = 500;
+const kBaseSize = 600;
+
+await computeAspectRatio();
+
+const dom = new JSDOM('<!DOCTYPE html><html><body></body></html>');
+const document = dom.window.document;
+const body = document.body;
+
+// Register the JSDOM window and document with SVG.js
+registerWindow(dom.window, document);
+
+const draw = SVG().addTo(body).size(/*width=*/kBaseSize * aspect_ratio, /*height=*/kBaseSize);
 
 for (const line of kLines) {
-  const line_json = JSON.parse(await readFile(`${line.name}.json`, 'utf8'));
+  const line_json = JSON.parse(await readFile(`${line.name}.geojson`, 'utf8'));
   const normalized_coordinates = await generateNormalizedCoordinates(line_json);
-  const svg_output = await generateSvgWithLibrary(normalized_coordinates, /*width=*/kBaseSize * aspect_ratio, /*height=*/kBaseSize, line.color);
-  await writeFile(`${line.name}.svg`, svg_output);
+  drawMetroLine(draw, /*width=*/kBaseSize * aspect_ratio, /*height=*/kBaseSize, normalized_coordinates, line.color);
 }
+
+await writeFile('tokyo-metro.svg', body.innerHTML);
