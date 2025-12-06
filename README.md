@@ -1,5 +1,9 @@
 # tokyo-metro 🚇
 
+## Tokyo Metro SVG map
+
+<img src=tokyo-metro.svg>
+
 ## Lines
 
 <table>
