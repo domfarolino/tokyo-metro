@@ -1,0 +1,16 @@
+{
+  "name": "tokyo-metro",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "geo-json-consume.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.5",
+    "jsdom": "^27.2.0"
+  }
+}
