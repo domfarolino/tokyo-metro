@@ -2,13 +2,13 @@
 
 ## Tokyo Metro SVG map
 
-<img src=tokyo-metro.svg>
+<img src="tokyo-metro.svg">
 
 ## Lines
 
 <table>
   <tr>
-    <th colspan=5><img src=static/icon_ginza.png><h3>Ginza</h3></th>
+    <th colspan=5><img src="static/icon_ginza.png"><h3>Ginza</h3></th>
   </tr>
   <tr>
     <td><img width=50px src="static/icon_g01.png"></td>
@@ -41,7 +41,7 @@
 
 <table>
   <tr>
-    <th colspan=5><img src=static/icon_marunouchi.png><h3>Marunouchi</h3></th>
+    <th colspan=5><img src="static/icon_marunouchi.png"><h3>Marunouchi</h3></th>
   </tr>
   <tr>
     <td><img width=50px src="static/icon_m01.png"></td>
@@ -81,7 +81,7 @@
 
 <table>
   <tr>
-    <th colspan=5><img src=static/icon_hibiya.png><h3>Hibiya</h3></th>
+    <th colspan=5><img src="static/icon_hibiya.png"><h3>Hibiya</h3></th>
   </tr>
   <tr>
     <td><img width=50px src="static/icon_h01.png"></td>
@@ -119,7 +119,7 @@
 
 <table>
   <tr>
-    <th colspan=5><img src=static/icon_tozai.png><h3>Tozai</h3></th>
+    <th colspan=5><img src="static/icon_tozai.png"><h3>Tozai</h3></th>
   </tr>
   <tr>
     <td><img width=50px src="static/icon_t01.png"></td>
@@ -157,7 +157,7 @@
 
 <table>
   <tr>
-    <th colspan=5><img src=static/icon_chiyoda.png><h3>Chiyoda</h3></th>
+    <th colspan=5><img src="static/icon_chiyoda.png"><h3>Chiyoda</h3></th>
   </tr>
   <tr>
     <td><img width=50px src="static/icon_c01.png"></td>
@@ -191,7 +191,7 @@
 
 <table>
   <tr>
-    <th colspan=5><img src=static/icon_yurakucho.png><h3>Yurakucho</h3></th>
+    <th colspan=5><img src="static/icon_yurakucho.png"><h3>Yurakucho</h3></th>
   </tr>
   <tr>
     <td><img width=50px src="static/icon_y01.png"></td>
@@ -231,7 +231,7 @@
 
 <table>
   <tr>
-    <th colspan=5><img src=static/icon_hanzomon.png><h3>Hanzomon</h3></th>
+    <th colspan=5><img src="static/icon_hanzomon.png"><h3>Hanzomon</h3></th>
   </tr>
   <tr>
     <td><img width=50px src="static/icon_h01.png"></td>
@@ -269,7 +269,7 @@
 
 <table>
   <tr>
-    <th colspan=5><img src=static/icon_namboku.png><h3>Namboku</h3></th>
+    <th colspan=5><img src="static/icon_namboku.png"><h3>Namboku</h3></th>
   </tr>
   <tr>
     <td><img width=50px src="static/icon_n01.png"></td>
@@ -302,7 +302,7 @@
 
 <table>
   <tr>
-    <th colspan=5><img src=static/icon_fukutoshin.png><h3>Fukutoshin</h3></th>
+    <th colspan=5><img src="static/icon_fukutoshin.png"><h3>Fukutoshin</h3></th>
   </tr>
   <tr>
     <td><img width=50px src="static/icon_f01.png"></td>
