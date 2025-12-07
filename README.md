@@ -366,21 +366,21 @@ line, except the Tozai line. That site specified the relation
 [`443260`](https://www.openstreetmap.org/relation/443260), but when you click
 it, nothing shows up, and the history says it was deleted over 11 years ago.
 
-<img src=static/tozai-deleted.png width=300>
+<img src="static/tozai-deleted.png" width=300>
 
 I then found
 https://commons.wikimedia.org/wiki/Category:Tokyo_Metro_T%C5%8Dzai_Line, which
 lists the Tozai line relation as
 [`8026124`](https://www.openstreetmap.org/relation/8026124).
 
-<img src=static/new-tozai-relation-id.png width=300>
+<img src="static/new-tozai-relation-id.png" width=300>
 
 Unfortunately, fetching this relation yielded no data — an absolutely empty
 `export.geojson`. I quickly realized that This is because the relation is just a
 container relation, holding the various *sub*-relations for each of the Tozai
 line variations: local/rapid/commuter rapid.
 
-<img src=static/tozai-sub-relations.png width=300>
+<img src="static/tozai-sub-relations.png" width=300>
 
 I chose the local variant since it listed all the stops; this is relation
 [`5371620`](https://www.openstreetmap.org/relation/5371620).
@@ -400,8 +400,8 @@ structure, but to reduce visual artifacts in the SVG produced by many separate
     <th>After line merging</th>
   </tr>
   <tr>
-    <td><img src=static/before-line-merging.png width=300></td>
-    <td><img src=static/after-line-merging.png width=300></td>
+    <td><img src="static/before-line-merging.png" width=300></td>
+    <td><img src="static/after-line-merging.png" width=300></td>
   </tr>
 </table>
 
