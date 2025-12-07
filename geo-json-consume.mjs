@@ -38,11 +38,9 @@ let min_X = Infinity,
 let rangeLat = undefined,
     rangeLong = undefined;
 
-async function computeAspectRatio() {
+function computeAspectRatio() {
   for (const line of kLines) {
-    const line_json = JSON.parse(await readFile(`${line.name}.geojson`, 'utf8'));
-
-    for (const feature of line_json['features']) {
+    for (const feature of line.json['features']) {
       const geometry_type = feature['geometry']['type'];
 
       let coordinates = feature['geometry']['coordinates'];
@@ -51,7 +49,6 @@ async function computeAspectRatio() {
       if (geometry_type === 'LineString' && feature.properties.railway === 'subway') {
         // Do nothing to re-package coordinates of the `LineString`.
       } else if (geometry_type === 'Point' && feature.properties.railway === 'stop') {
-        console.log(feature.properties['name:en']);
         coordinates = [coordinates];
       } else {
         // We must not care about this geometry point, so don't let it influence
@@ -76,7 +73,7 @@ async function computeAspectRatio() {
   aspect_ratio = rangeLong / rangeLat;
 }
 
-async function generateNormalizedCoordinates(json) {
+function generateNormalizedCoordinates(json) {
   const returnCoords = [];
 
   for (const feature of json['features']) {
@@ -121,7 +118,13 @@ async function generateNormalizedCoordinates(json) {
 
 const kBaseSize = 600;
 
-await computeAspectRatio();
+// First, populate all `kLine` objects with the GeoJSON read from each file.
+for (const line of kLines) {
+  console.log(`Processing the ${line.name} line`);
+  line.json = JSON.parse(await readFile(`${line.name}.geojson`, 'utf8'));
+}
+
+computeAspectRatio();
 
 const dom = new JSDOM('<!DOCTYPE html><html><body></body></html>');
 const document = dom.window.document;
@@ -133,8 +136,8 @@ registerWindow(dom.window, document);
 const draw = SVG().addTo(body).viewbox(0, 0, /*width=*/kBaseSize * aspect_ratio, /*height=*/kBaseSize);
 
 for (const line of kLines) {
-  const line_json = JSON.parse(await readFile(`${line.name}.geojson`, 'utf8'));
-  const normalized_coordinates = await generateNormalizedCoordinates(line_json);
+  const normalized_coordinates = generateNormalizedCoordinates(line.json);
+  console.log(`Drawing the ${line.name} line`);
   drawMetroLine(draw, /*width=*/kBaseSize * aspect_ratio, /*height=*/kBaseSize, normalized_coordinates, line.color);
 }
 
