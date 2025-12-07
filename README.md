@@ -394,13 +394,16 @@ to merge as many segments as possible, not only to create a simpler graph
 structure, but to reduce visual artifacts in the SVG produced by many separate
 `<polyline>`s. See the before and after below:
 
-<img src=static/before-line-merging.png width=300>
-
-Before line merging.
-
-<img src=static/after-line-merging.png width=300>
-
-After line merging.
+<table>
+  <tr>
+    <th>Before line merging</th>
+    <th>After line merging</th>
+  </tr>
+  <tr>
+    <td><img src=static/before-line-merging.png width=300></td>
+    <td><img src=static/after-line-merging.png width=300></td>
+  </tr>
+</table>
 
 The line merging algorithm right now is pretty simple and dumb; it makes some
 assumptions that hold for Tokyo Metro's data set, to avoid complexity.
