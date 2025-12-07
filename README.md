@@ -234,36 +234,24 @@
     <th colspan=5><img src="static/icon_hanzomon.png"><h3>Hanzomon</h3></th>
   </tr>
   <tr>
-    <td><img width=50px src="static/icon_h01.png"></td>
-    <td><img width=50px src="static/icon_h02.png"></td>
-    <td><img width=50px src="static/icon_h03.png"></td>
-    <td><img width=50px src="static/icon_h04.png"></td>
-    <td><img width=50px src="static/icon_h05.png"></td>
+    <td><img width=50px src="static/icon_z01.png"></td>
+    <td><img width=50px src="static/icon_z02.png"></td>
+    <td><img width=50px src="static/icon_z03.png"></td>
+    <td><img width=50px src="static/icon_z04.png"></td>
+    <td><img width=50px src="static/icon_z05.png"></td>
   </tr>
   <tr>
-    <td><img width=50px src="static/icon_h06.png"></td>
-    <td><img width=50px src="static/icon_h07.png"></td>
-    <td><img width=50px src="static/icon_h08.png"></td>
-    <td><img width=50px src="static/icon_h09.png"></td>
-    <td><img width=50px src="static/icon_h10.png"></td>
+    <td><img width=50px src="static/icon_z06.png"></td>
+    <td><img width=50px src="static/icon_z07.png"></td>
+    <td><img width=50px src="static/icon_z08.png"></td>
+    <td><img width=50px src="static/icon_z09.png"></td>
+    <td><img width=50px src="static/icon_z10.png"></td>
   </tr>
   <tr>
-    <td><img width=50px src="static/icon_h11.png"></td>
-    <td><img width=50px src="static/icon_h12.png"></td>
-    <td><img width=50px src="static/icon_h13.png"></td>
-    <td><img width=50px src="static/icon_h14.png"></td>
-    <td><img width=50px src="static/icon_h15.png"></td>
-  </tr>
-  <tr>
-    <td><img width=50px src="static/icon_h16.png"></td>
-    <td><img width=50px src="static/icon_h17.png"></td>
-    <td><img width=50px src="static/icon_h18.png"></td>
-    <td><img width=50px src="static/icon_h19.png"></td>
-    <td><img width=50px src="static/icon_h20.png"></td>
-  </tr>
-  <tr>
-    <td><img width=50px src="static/icon_h21.png"></td>
-    <td><img width=50px src="static/icon_h22.png"></td>
+    <td><img width=50px src="static/icon_z11.png"></td>
+    <td><img width=50px src="static/icon_z12.png"></td>
+    <td><img width=50px src="static/icon_z13.png"></td>
+    <td><img width=50px src="static/icon_z14.png"></td>
   </tr>
 </table>
 
