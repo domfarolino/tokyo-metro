@@ -20,9 +20,15 @@ function drawMetroLine(draw, width, height, coordinates, line_color) {
   const kThickness = 8;
   for (const coord of coordinates) {
     if (coord.type === 'LineString') {
-      draw.polyline(coord.coords.map(p => [p.longitude_norm * width, p.latitude_norm * height])).fill('none').stroke({ color : line_color, width: kThickness });
+      draw
+        .polyline(coord.coords.map(p => [p.longitude_norm * width, p.latitude_norm * height]))
+        .fill('none').stroke({ color : line_color, width: kThickness })
+        .attr('stroke-linecap', 'round');
     } else if (coord.type === 'Point') {
-      draw.circle(kThickness - 1).fill('white').center(coord.coords[0].longitude_norm * width, coord.coords[0].latitude_norm * height);
+      draw
+        .circle(kThickness - 1)
+        .fill('white')
+        .center(coord.coords[0].longitude_norm * width, coord.coords[0].latitude_norm * height);
     }
   }
 }
