@@ -384,3 +384,23 @@ line variations: local/rapid/commuter rapid.
 
 I chose the local variant since it listed all the stops; this is relation
 [`5371620`](https://www.openstreetmap.org/relation/5371620).
+
+## Line merging
+
+The OSM GeoJSON data gives a ton of disconnected subway line segments (as
+`LineString`s), but almost all of them have starting coordinates that match
+another segment's *end* coordinates, or vice versa. This gives us an opportunity
+to merge as many segments as possible, not only to create a simpler graph
+structure, but to reduce visual artifacts in the SVG produced by many separate
+`<polyline>`s. See the before and after below:
+
+<img src=static/before-line-merging.png width=300>
+
+Before line merging.
+
+<img src=static/after-line-merging.png width=300>
+
+After line merging.
+
+The line merging algorithm right now is pretty simple and dumb; it makes some
+assumptions that hold for Tokyo Metro's data set, to avoid complexity.
