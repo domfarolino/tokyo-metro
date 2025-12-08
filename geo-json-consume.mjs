@@ -80,7 +80,7 @@ function computeAspectRatio() {
 }
 
 function generateNormalizedCoordinates(json) {
-  const returnCoords = [];
+  const normalizedCoords = [];
 
   for (const feature of json['features']) {
     const geometry_type = feature['geometry']['type'];
@@ -89,7 +89,7 @@ function generateNormalizedCoordinates(json) {
     if (geometry_type === 'LineString' && feature.properties.railway === 'subway') {
       // Do nothing to re-package coordinates of the `LineString`.
     } else if (geometry_type === 'Point' && feature.properties.railway === 'stop') {
-        coordinates = [coordinates];
+      coordinates = [coordinates];
     } else {
       continue;
     }
@@ -108,80 +108,60 @@ function generateNormalizedCoordinates(json) {
       };
       entity.coords.push(coords);
     }
-    returnCoords.push(entity);
+    normalizedCoords.push(entity);
   }
 
-  // Merge as many line segments into one single adjoining "mega line" as
-  // possible. Most GeoJSON `LineString` runs have starting coordinates that
-  // match another segment's end coordinates, or vice versa. This gives us an
-  // opportunity to find the segments that perfectly join with others, and turn
-  // them into one long line. This is simpler, and it produces a WAY less choppy
-  // SVG with no white gaps in between individiaul line segments.
+  // Most GeoJSON `LineString` runs start where another ends, or vice versa.
+  // Merge as many adjoining line segments as possible. This is simpler, and it
+  // produces a WAY smoother SVG with no missing gaps between adjoining segments
+  // with sharp turns.
   //
-  // Note that a more generalized version of this algorithm would cater to the
-  // possibility that many small segments could join into different larger
-  // segments, with a handful of these larger segments remaining, that
-  // themselves do not join together. Union find could join all connected
-  // segments together, leaving us with a minimal set of combined segments that
-  // cannot be combined further.
-  //
-  // In practice, this doesn't happen with Tokyo Metro, so we just pick a single
-  // segment and treat it as the basis of our mega line. We then evaluate every
-  // other segment and try and append/prepend it to our mega line. Anything
-  // leftover is not merged. That case is only hit for a single disconnected
-  // segment in both the Ginza and Fukutoshin lines, for some reason.
-  //
-  // Start by taking the first line segment as the start of our "mega line".
-  let mega_line = returnCoords.find(entity => entity.type === 'LineString');
-  let distinct_lines = -1;
-  while (returnCoords.filter(entity => entity.type === 'LineString').length) {
-    const current_distinct_lines = returnCoords.filter(entity => entity.type === 'LineString').length;
-    if (distinct_lines === current_distinct_lines) {
-      // We made no progress on the last round, so the merging is complete.
-      // Break so we don't get stuck trying to merge the remaining runs into `mega_line`.
-      break;
+  // Note that most of the time this will result in a single "mega" line
+  // segment, which is idea. But for Tokyo Metro, for some reason the Ginza and
+  // Fukutoshin lines have exactly 2 reduced line segments.
+  const merged_segments = [];
+  const line_segments = normalizedCoords.filter(entity => entity.type === 'LineString');
+  const remaining_segments = new Set(line_segments);
+  for (const current_segment of line_segments) {
+    if (!remaining_segments.has(current_segment)) {
+      // `current_segment` was already subsumed by a greater segment. No need to
+      // consider it.
+      continue;
     }
+    remaining_segments.delete(current_segment);
 
-    distinct_lines = current_distinct_lines;
-
-    for (const line_segment of returnCoords) {
-      // Don't consider Points or "used" LineStrings. Considering "used" line
-      // segments wouldn't actually make this loop run forever, or anything bad
-      // like that. It's just wasteful. The "used" status is only for filtering
-      // out the merged ones after the loop.
-      if (line_segment.type !== 'LineString') {
-        continue;
-      }
-
-      // First, try and find a line segment that STARTS where `mega_line` ends.
-      // That is, a segment, whose first coordinate matches `mega_line`'s last.
-      // If we find one, then append all of `line_segment`'s coordinates to
-      // `mega_line`'s coordinates, and mark `line_segment` as used, so we don't
-      // consider it in the future.
-      //
-      // If we don't find a match, try the inverse: see if `line_segment` grows
-      // `mega_line` from the other end, and should be prepended to it.
-      //
-      // Only comparing normalized latitude should be good enough, since it's
-      // virutally impossible for two points of the same line to have the
-      // *exact* same latitude and only differ in longitude. If this assumption
-      // is broken, then we might greedily steal the wrong line segment here,
-      // and break the flow of the line.
-      if (line_segment.coords[0].latitude_norm === mega_line.coords.at(-1).latitude_norm) {
-        line_segment.type = 'USED';
-        // No need to preserve the first coordinate of `line_segment`, since
-        // it's the same as `mega_line`'s last.
-        mega_line.coords = mega_line.coords.concat(line_segment.coords.slice(1));
-      } else if (line_segment.coords.at(-1).latitude_norm === mega_line.coords[0].latitude_norm) {
-        line_segment.type = 'USED';
-        mega_line.coords = line_segment.coords.concat(mega_line.coords.slice(1));
+    let performed_merge = true;
+    while (performed_merge) {
+      // Only set `performed_true` when a remaining segment merges with
+      // `current_segment`. If this happened at least once, then we have to
+      // re-consider at all remaining segments again, as `current_segment` has
+      // changed, and may be compatible with other segments.
+      performed_merge = false;
+      // Iterate over a copy because we mutate it while iterating.
+      for (const candidate of Array.from(remaining_segments)) {
+        // If `candidate` starts where `current_segment` ends...
+        if (candidate.coords[0].latitude_norm === current_segment.coords.at(-1).latitude_norm) {
+          // No need to preserve `candidate`'s first coordinate, since it's the
+          // same as the current line's last.
+          performed_merge = true;
+          current_segment.coords.push(...candidate.coords.slice(1));
+          remaining_segments.delete(candidate);
+        } else if (candidate.coords.at(-1).latitude_norm === current_segment.coords[0].latitude_norm) {
+          performed_merge = true;
+          current_segment.coords.unshift(...candidate.coords.slice(0, -1));
+          remaining_segments.delete(candidate);
+        }
       }
     }
+
+    merged_segments.push(current_segment);
   }
 
-  const final_line_strings = returnCoords.filter(entity => entity.type === 'LineString').length;
-  console.log(`Was able to merge line into ${final_line_strings} line run(s).`);
-  return returnCoords.filter(entity => entity.type != 'USED');
+  console.log(`Was able to merge line into ${merged_segments.length} line run(s).`);
+  // Return an array with all merged `LineString`s first, and all `Point`s
+  // after.
+  return merged_segments
+    .concat(normalizedCoords.filter(entity => entity.type !== 'LineString'));
 }
 
 const kBaseSize = 600;
